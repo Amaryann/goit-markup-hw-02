@@ -1,3 +1,208 @@
-body{
-    background-color: aquamarine;
+:root {
+  /* font */
+  --main-font: roboto, normal;
+  --secondary-font: raleway, normal;
+
+  /* text colors */
+  --primary-brand-txt: #4d5ae5;
+  --pressed-state-txt: #404bbf;
+  --dark-txt: #2e2f42;
+  --success-txt: #31d0aa;
+  --success-txt-75: rgb(49, 208, 170, 0.75);
+  --success-txt-50: rgb(49, 208, 170, 0.5);
+  --success-txt-10: rgb(49, 208, 170, 0.1);
+  --body-txt: #434455;
+  --subtle-txt: #8e8f99;
+  --overlay-txt: #2e2f42;
+
+  /*background colors*/
+  --accent-bg-color: #e7e9fc;
+  --light-bg-color: #f4f4fd;
+  --hero-bg-color: #2e2f42;
+
+  /*others*/
+  @font-face {
+    font-family: roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw0aXpsog.woff2)
+      format("woff2");
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+      U+FE2E-FE2F;
+  }
+}
+
+/*base styles*/
+body {
+  font-family: var(--main-font);
+  color: var(--body-txt);
+}
+
+.list {
+  list-style: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+
+  color: #2e2f42;
+}
+.link {
+  text-decoration: none;
+}
+.logo {
+  width: 44px;
+  height: 24px;
+
+  font-family: "raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #4d5ae5;
+}
+.menu-link {
+  font-family: "roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+
+  color: #2e2f42;
+}
+
+.studio {
+  color: var(--dark-txt);
+}
+.studio-1{
+  color: #FFFFFF;
+  background: #2E2F42;
+}
+.btn {
+  font-family: inherit;
+  color: #ffffff;
+  background: #4d5ae5;
+  cursor: pointer;
+}
+.btn:hover,
+.btn:focus {
+  color: #ffffff;
+  background: var(#404bbf);
+}
+.modal-btn {
+}
+.first {
+  color: #ffffff;
+  background: #2e2f42;
+}
+
+.title {
+  font-family: "roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.description {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+#all{
+  color:#FFFFFF; ;
+  background: #404BBF;
+}
+.modal-btn {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background: #F4F4FD;
+
+  }
+
+
+
+footer {
+  font-family: var(--main-font);
+  color: var(--body-txt);
+}
+.footer{
+  color: #ffffff;
+    background: #2e2f42;
+}
+.logo {
+  font-family: var(--secondary-font);
+}
+.adress-list {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.big{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+
+}
+.secondary{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2E2F42;
+
+}
+.third{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.content{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #434455;
+
 }
