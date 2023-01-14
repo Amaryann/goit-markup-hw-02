@@ -53,6 +53,9 @@ body {
 .link {
   text-decoration: none;
 }
+.adress-list{
+  list-style-type: none;
+}
 .logo {
   width: 44px;
   height: 24px;
