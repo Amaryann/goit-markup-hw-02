@@ -33,7 +33,7 @@ body {
 }
 .nav-link {
   font-weight: 500;
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--dark-txt);
 }
@@ -48,7 +48,7 @@ body {
   font-family: "raleway";
   font-weight: 800;
   font-size: 18px;
-  line-height: 1, 3;
+  line-height: 1.33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-brand-txt);
@@ -59,7 +59,7 @@ body {
 }
 .studio-1 {
   font-size: 18px;
-  line-height: calc(21px / 18px);
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--light-bg-color);
 }
@@ -82,9 +82,14 @@ body {
   color: var(--light-txt);
   background: var(--pressed-state-txt);
 }
+#all:hover,
+#all:focus{
+  color: var(--pressed-state-txt);
+  background: var(--light-txt);
+}
 .modal-btn {
   font-size: 16px;
-  line-height: calc(24px / 16px);
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--primary-brand-txt);
   background: var(--light-bg-color);
@@ -96,27 +101,27 @@ footer {
 .footer-text {
   color: #ffffff;
   font-size: 16px;
-  line-height: calc(24px / 16px);
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--accent-bg-color);
 }
 .contact-link {
   font-style: normal;
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--body-txt);
 }
 
 .hero-title {
   font-size: 56px;
-  line-height: calc(60px / 56px);
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--light-txt);
 }
 .section-title {
   font-size: 36px;
-  line-height: calc(40px / 36px);
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -125,13 +130,13 @@ footer {
 .section-subtitle {
   font-weight: 500;
   font-size: 20px;
-  line-height: calc(24px / 20px);
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--dark-txt);
 }
 .section-text {
   font-size: 16px;
-  line-height: calc(24px / 16px);
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--body-txt);
 }
